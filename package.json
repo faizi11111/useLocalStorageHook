@@ -1,0 +1,11 @@
+{
+  "name": "use-local-storage-hook",
+  "version": "1.0.0",
+  "description": "useLocalStorage is a versatile and user-friendly custom React hook that simplifies local storage management in your web applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "faizi111",
+  "license": "ISC"
+}
