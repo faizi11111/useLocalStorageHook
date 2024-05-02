@@ -18,7 +18,9 @@ export const useLocalStorage = (key, isJson = true) => {
       setValue(localStorage.getItem(key));
     });
     return () => {
-      window.removeEventListener("storage", handleStorageChange);
+      window.removeEventListener("storage", () =>
+        setValue(localStorage.getItem(key))
+      );
     };
   }, [value]);
 
